@@ -14,5 +14,4 @@ describe('bottlesOfBeer', function() {
   it("will return an 'invalid number' response if the number is above 99", function() {
     expect(bottlesOfBeer(100)).to.equal("That's not a valid number! Please enter a number below 99.")
   });
-   
 });
