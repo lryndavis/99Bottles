@@ -12,6 +12,8 @@ var bottlesOfBeer = function(number) {
   } else if (number > 1 && number <= 99) { 
     return number + ' bottles of beer on the wall, ' + number + ' bottles of beer. Take one down and pass it around, ' + 
     (number - 1) + ' bottles of beer on the wall. ' + bottlesOfBeer(number - 1);
+  } else {
+    return "That's not a valid number! Please enter a number below 99.";
   }
 }
 
